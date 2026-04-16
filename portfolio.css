@@ -203,7 +203,7 @@ header{
   margin-bottom:0px;
   border-radius: 10px;
   display:none;
-    }
+  }
 @media screen and (max-width:768px){
   .sidenav{
     display:none;
