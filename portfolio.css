@@ -43,7 +43,7 @@ h2, p {
 /*a sidenavben lévö linknek a formázása*/
 .sidenav {
   position:fixed;
-  top:10%;
+  top:8%;
   width:15%;
   margin-left:2%;
 }
