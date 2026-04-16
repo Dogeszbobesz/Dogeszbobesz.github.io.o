@@ -204,7 +204,7 @@ header{
   border-radius: 10px;
   display:none;
   }
-@media screen and (max-width:768px){
+@media screen and (max-width:1000px){
   .sidenav{
     display:none;
   }
