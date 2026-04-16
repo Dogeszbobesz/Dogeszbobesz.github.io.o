@@ -19,7 +19,9 @@ h2, p {
   overflow: hidden;
   background-color: #333;
 }
-
+.navbar p {
+  display:none;
+}
 .navbar a {
   float: left;
   font-size: 16px;
@@ -32,13 +34,16 @@ h2, p {
   border-top: 0px;
   border-left: 0px;
 }
+.navbar a.mobile {
+  display:none;
+}
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(5, 121, 5);
 }
 /*a sidenavben lévö linknek a formázása*/
 .sidenav {
   position:fixed;
-  top:2%;
+  top:12%;
   width:15%;
   margin-left:2%;
 }
@@ -104,6 +109,11 @@ h2, p {
   border-top:none;
   border-bottom:none;
   width:120px;
+}
+.navbarmobile{
+  overflow: auto;
+  max-width: 100%;
+  display: none;
 }
 
 .dropdown .dropbtn {
@@ -180,12 +190,20 @@ header{
   gap: 20px;              /* Távolság a kép és a szöveg között */
   margin:2%;
   font-size: 20px;
-    font-family:'Times New Roman';
-    border-style:solid;
-    border-radius:20px;
-    background-color: rgb(255, 255, 255);
-    border-width: 2px;
+  font-family:'Times New Roman';
+  border-style:solid;
+  border-radius:20px;
+  background-color: rgb(255, 255, 255);
+  border-width: 2px;
 }
+  .profilkep {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-bottom:0px;
+  border-radius: 10px;
+  display:none;
+    }
 @media screen and (max-width:768px){
   .sidenav{
     display:none;
